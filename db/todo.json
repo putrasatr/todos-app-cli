@@ -1,0 +1,59 @@
+[
+   {
+      "activity": "Masak Ayam Goreng",
+      "status": true,
+      "tags": [
+         "chicken",
+         "music",
+         "rec",
+         "guitar"
+      ]
+   },
+   {
+      "activity": "Ngoding",
+      "status": false,
+      "tags": [
+         "Phyton",
+         "Javascript",
+         "Ngodig",
+         "Eroor",
+         "Bugs",
+         "music",
+         "rec",
+         "guitar"
+      ]
+   },
+   {
+      "activity": "Bermain bola bersama lionel messi",
+      "status": false,
+      "tags": []
+   },
+   {
+      "activity": "Pergi ke amsterdam mencari ilham",
+      "status": false,
+      "tags": []
+   },
+   {
+      "activity": "Bertanya kepada semesta ?",
+      "status": false,
+      "tags": []
+   },
+   {
+      "activity": "Listen Music.",
+      "status": false,
+      "tags": [
+         "music",
+         "rec",
+         "guitar"
+      ]
+   },
+   {
+      "activity": "Watch movies",
+      "status": false,
+      "tags": [
+         "running",
+         "man",
+         "movies"
+      ]
+   }
+]
