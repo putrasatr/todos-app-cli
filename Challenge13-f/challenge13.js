@@ -8,7 +8,6 @@ let tagParse = JSON.parse(dataTag)
 
 switch (process.argv.slice(2)[0]) {
     case 'help':
-
         console.log('>>> JS TODO <<<\n$ node challenge13.js <command>\n$ node challenge13.js list\n$ node challenge13.js task <task_id>')
         console.log('$ node challenge13.js add <task_content>\n$ node challenge13.js delete <task_id>\n$ node challenge13.js complete <task_id>\n$ node challenge13.js uncomplete <task_id>\n$ node challenge13.js list:outstanding asc|desc\n$ node challenge13.js list:completed asc|desc\n$ node challenge13.js tag <task_id> <tag_name_1> <tag_name_2> ... <tag_name_N>\n$ node challenge13.js filter:<tag_name>')
         break;
