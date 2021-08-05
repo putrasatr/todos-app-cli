@@ -12,4 +12,18 @@ $ node todos.js list:completed asc|desc
 $ node todos.js tag <task_id> <tag_name_1> <tag_name_2> ... <tag_name_N>
 $ node todos.js filter:<tag_name>`
 
+const formatData = {
+    activity: '',
+    status: false,
+    tags: [],
+}
+const handleFalseInput = () => {
+    console.log(instruction)
+}
+const handleRespon = (response) => {
+    console.log(response)
+}
 exports.instruction = instruction
+exports.formatData = formatData
+exports.handleFalseInput = handleFalseInput
+exports.handleRespon = handleRespon
