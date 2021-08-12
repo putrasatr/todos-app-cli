@@ -1,0 +1,20 @@
+{
+  "name": "todos-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./todos.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/putrasatr/todos-app-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/putrasatr/todos-app-cli/issues"
+  },
+  "homepage": "https://github.com/putrasatr/todos-app-cli#readme"
+}
