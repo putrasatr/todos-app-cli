@@ -1,6 +1,6 @@
 const fs = require('fs')
 const datas = JSON.parse(fs.readFileSync('./db/todos.json', 'utf8'))
-const { command, request, writeData, handleFalseInput } = require("./helpers")
+const { command, request, writeData, handleFalseInput } = require("./utils")
 const {
     task,
     tagTask,

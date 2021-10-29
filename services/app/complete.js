@@ -17,7 +17,7 @@ function completeTask(datas, request, writeData) {
     }
 }
 
-function unCompleteTask(datas, reques, writeData) {
+function unCompleteTask(datas, request, writeData) {
     if (Number(request)) {
         const data = datas[Number(request) - 1]
         if (data) {

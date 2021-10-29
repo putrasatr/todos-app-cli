@@ -9,7 +9,7 @@ const handleFalseInput = () => {
 }
 const writeData = async (data) => {
     try {
-        await fs.writeFileSync('./db/todo.json', JSON.stringify(data, null, 3),)
+        await fs.writeFileSync('./db/todos.json', JSON.stringify(data, null, 3),)
         return new Promise(resolve => {
             resolve('Success!')
         })
